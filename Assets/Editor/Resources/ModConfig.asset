@@ -14,7 +14,11 @@ MonoBehaviour:
   id: ksmRainbowArrows
   title: Rainbow Arrows
   author: Marksam32, Kaito Sinclaire
-  description: 
+  description: "This is a reupload of a deleted module by: Kaito Sinclaire. \nCurrently
+    maintained by: Marksam32.\n\nManual: \nHTML: https://ktane.timwi.de/HTML/Rainbow%20Arrows.html\nPDF:
+    https://ktane.timwi.de/PDF/Rainbow%20Arrows.pdf\n\nTwitch plays is supported\n\nSource
+    code: https://github.com/marksam32/ktaneRainbowArrows/\n\nPlease report any bugs
+    to: Marksam#6669 on discord"
   version: 1.0
   outputFolder: build
-  previewImage: {fileID: 0}
+  previewImage: {fileID: 2800000, guid: 084c9bb3e65b41441a2c260343c0d5b0, type: 3}
