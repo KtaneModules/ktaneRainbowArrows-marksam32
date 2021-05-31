@@ -1,0 +1,213 @@
+fileFormatVersion: 2
+guid: 2ea4c013a8cbc574e85cad74f246639a
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: ArrowHighlight
+    100002: ArrowHighlight 1
+    100004: ArrowHighlight 2
+    100006: ArrowHighlight 3
+    100008: ArrowHighlight 4
+    100010: ArrowHighlight 5
+    100012: ArrowHighlight 6
+    100014: ArrowHighlight 7
+    100016: ArrowOutline
+    100018: ArrowOutline 1
+    100020: ArrowOutline 2
+    100022: ArrowOutline 3
+    100024: ArrowOutline 4
+    100026: ArrowOutline 5
+    100028: ArrowOutline 6
+    100030: ArrowOutline 7
+    100032: Component_Highlight
+    100034: Component_PuzzleBackground
+    100036: Display
+    100038: DisplayBase
+    100040: DisplayText
+    100042: DownArrow
+    100044: DownLeftArrow
+    100046: DownRightArrow
+    100048: GameplayStuff
+    100050: //RootNode
+    100052: LeftArrow
+    100054: RightArrow
+    100056: StatusLightParent
+    100058: UpArrow
+    100060: UpLeftArrow
+    100062: UpRightArrow
+    400000: ArrowHighlight
+    400002: ArrowHighlight 1
+    400004: ArrowHighlight 2
+    400006: ArrowHighlight 3
+    400008: ArrowHighlight 4
+    400010: ArrowHighlight 5
+    400012: ArrowHighlight 6
+    400014: ArrowHighlight 7
+    400016: ArrowOutline
+    400018: ArrowOutline 1
+    400020: ArrowOutline 2
+    400022: ArrowOutline 3
+    400024: ArrowOutline 4
+    400026: ArrowOutline 5
+    400028: ArrowOutline 6
+    400030: ArrowOutline 7
+    400032: Component_Highlight
+    400034: Component_PuzzleBackground
+    400036: Display
+    400038: DisplayBase
+    400040: DisplayText
+    400042: DownArrow
+    400044: DownLeftArrow
+    400046: DownRightArrow
+    400048: GameplayStuff
+    400050: //RootNode
+    400052: LeftArrow
+    400054: RightArrow
+    400056: StatusLightParent
+    400058: UpArrow
+    400060: UpLeftArrow
+    400062: UpRightArrow
+    2100000: Component_PuzzleBackground
+    2100002: 2-Orange
+    2100004: 0-Black
+    2100006: 1-Red
+    2100008: 8-White
+    2100010: 3-Yellow
+    2100012: 7-Violet
+    2100014: 4-Green
+    2100016: 5-Blue
+    2100018: 6-Indigo
+    2300000: ArrowOutline
+    2300002: ArrowOutline 1
+    2300004: ArrowOutline 2
+    2300006: ArrowOutline 3
+    2300008: ArrowOutline 4
+    2300010: ArrowOutline 5
+    2300012: ArrowOutline 6
+    2300014: ArrowOutline 7
+    2300016: Component_PuzzleBackground
+    2300018: DisplayBase
+    2300020: DownArrow
+    2300022: DownLeftArrow
+    2300024: DownRightArrow
+    2300026: LeftArrow
+    2300028: RightArrow
+    2300030: UpArrow
+    2300032: UpLeftArrow
+    2300034: UpRightArrow
+    3300000: ArrowOutline
+    3300002: ArrowOutline 1
+    3300004: ArrowOutline 2
+    3300006: ArrowOutline 3
+    3300008: ArrowOutline 4
+    3300010: ArrowOutline 5
+    3300012: ArrowOutline 6
+    3300014: ArrowOutline 7
+    3300016: Component_PuzzleBackground
+    3300018: DisplayBase
+    3300020: DownArrow
+    3300022: DownLeftArrow
+    3300024: DownRightArrow
+    3300026: LeftArrow
+    3300028: RightArrow
+    3300030: UpArrow
+    3300032: UpLeftArrow
+    3300034: UpRightArrow
+    4300000: Component_PuzzleBackground
+    4300002: UpLeftArrow
+    4300004: ArrowOutline
+    4300006: UpArrow
+    4300008: ArrowOutline
+    4300010: UpRightArrow
+    4300012: ArrowOutline
+    4300014: LeftArrow
+    4300016: ArrowOutline
+    4300018: RightArrow
+    4300020: ArrowOutline
+    4300022: DownLeftArrow
+    4300024: ArrowOutline
+    4300026: DownArrow
+    4300028: ArrowOutline
+    4300030: DownRightArrow
+    4300032: ArrowOutline
+    4300034: DisplayBase
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
