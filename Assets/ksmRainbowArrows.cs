@@ -364,7 +364,7 @@ public class ksmRainbowArrows : MonoBehaviour
 
     private int RuleAdjacentWords(int pos)
     {
-        var array = new[]
+        var words = new[]
         {
             "yoked",
             "white",
@@ -383,12 +383,11 @@ public class ksmRainbowArrows : MonoBehaviour
             "bravo",
             "vault"
         };
-        var array2 = new[]
+        var shiftIndexes = new[]
         {
             "234",
             "23456",
             "23456",
-            "456",
             "456",
             "01234",
             "01234567",
@@ -403,7 +402,7 @@ public class ksmRainbowArrows : MonoBehaviour
             "01267",
             "067"
         };
-        var array3 = new[]
+        var shiftNumbers = new[]
         {
             -4,
             -3,
@@ -417,9 +416,9 @@ public class ksmRainbowArrows : MonoBehaviour
         var num = 0;
         var num2 = 0;
         var second = bombInfo.GetSerialNumber().ToLower().Distinct().ToArray();
-        for (var i = 0; i < array.Length; i++)
+        for (var i = 0; i < words.Length; i++)
         {
-            var num3 = array[i].ToCharArray().Intersect(second).ToArray().Length;
+            var num3 = words[i].ToCharArray().Intersect(second).ToArray().Length;
             if (num3 > num2)
             {
                 num2 = num3;
@@ -429,7 +428,7 @@ public class ksmRainbowArrows : MonoBehaviour
 
         Debug.LogFormat(
             "[Rainbow Arrows #{0}] (West - Adjacent Words) The word with the most letters in common with the serial number is \"{1}\", with {2}.",
-            thisLogID, array[num], num2);
+            thisLogID, words[num], num2);
         var text = "abcdefghijklmnopqrstuvwxyz";
         if (displayedDigits % 26 != 0)
         {
@@ -442,21 +441,21 @@ public class ksmRainbowArrows : MonoBehaviour
         var num4 = 0;
         var num5 = 27;
         var num6 = 0;
-        foreach (var c in array2[num])
+        foreach (var c in shiftIndexes[num])
         {
-            int num7 = (c - '0');
-            int num8 = text.IndexOf(array[num + array3[num7]][0]);
+            var num7 = (c - '0');
+            var num8 = text.IndexOf(words[num + shiftNumbers[num7]][0]);
             if (num8 < num5)
             {
                 num5 = num8;
                 num4 = num7;
-                num6 = num + array3[num7];
+                num6 = num + shiftNumbers[num7];
             }
         }
 
         Debug.LogFormat(
             "[Rainbow Arrows #{0}] (West - Adjacent Words) The letter '{2}' gives us a match in the {3} direction ('{1}'), so the answer is {3}.",
-            thisLogID, array[num6], array[num6][0], __positionText[num4]);
+            thisLogID, words[num6], words[num6][0], __positionText[num4]);
         return num4;
     }
 
